@@ -2,9 +2,9 @@
   "name": "foobotjs",
   "version": "0.0.0",
   "description": "Foobot node SDK",
-  "main": "foobot.js",
+  "main": "lib/foobot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "node_modules/.bin/babel -d lib src"
   },
   "author": "Andrew Crites <ajcrites@gmail.com>",
   "license": "ISC",
