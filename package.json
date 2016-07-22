@@ -1,6 +1,6 @@
 {
   "name": "foobotjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Foobot node SDK",
   "main": "lib/foobot.js",
   "scripts": {
