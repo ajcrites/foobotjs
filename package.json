@@ -1,6 +1,6 @@
 {
   "name": "foobotjs",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Foobot node SDK",
   "main": "lib/foobot.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "author": "Andrew Crites <ajcrites@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.13.1"
+    "axios": "^0.13.1",
+    "babel-runtime": "^6.9.2"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
