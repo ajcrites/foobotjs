@@ -34,7 +34,7 @@ export default class Requestor {
         }
         catch (err) {
             // If we are not logged in, attempt to authenticate and retry
-            if (401 === err.response.status) {
+            if (err && err.response && 401 === err.response.status) {
                 await this.authorize();
 
                 return this.apiRequest.call(this, method, url, data);
